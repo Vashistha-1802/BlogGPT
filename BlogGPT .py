@@ -21,8 +21,8 @@ def write_post(topic):
       temperature=0.9,
       k=0,
       p=0.75,
-      frequency_penalty=0,
-      presence_penalty=0,
+      frequency_penalty=0.7,
+      presence_penalty=0.1,
       stop_sequences=[],
       return_likelihoods='NONE')
     return response.generations[0].text
@@ -35,8 +35,8 @@ def write_poem(topic):
       temperature=1,
       k=0,
       p=0.75,
-      frequency_penalty=0,
-      presence_penalty=0,
+      frequency_penalty=0.7,
+      presence_penalty=0.1,
       stop_sequences=[],
       return_likelihoods='NONE')
     return response.generations[0].text
@@ -49,8 +49,8 @@ def write_story(topic):
       temperature=0.9,
       k=0,
       p=0.75,
-      frequency_penalty=0,
-      presence_penalty=0,
+      frequency_penalty=0.7,
+      presence_penalty=0.1,
       stop_sequences=[],
       return_likelihoods='NONE')
     return response.generations[0].text    

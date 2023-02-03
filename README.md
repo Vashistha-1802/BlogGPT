@@ -1,8 +1,13 @@
 # BlogGPT
 It is a repository for a Virtual Hackathon conducted by a amazing organization LabLab.ai
-## Quick Install
+## Quick Install Requirements
 
-`pip install langchain`
+`pip install cohere`
+`pip install streamlit`
+
+## To run the code in Terminal type
+
+`streamlit run blogGPT.p`
 
 ## 🤔 What is this?
 

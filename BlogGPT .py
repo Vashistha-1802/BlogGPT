@@ -60,22 +60,7 @@ def write_story(topic):
 
 
 import streamlit as st
-# def main():
-#     st.sidebar.title("Navigation")
-#     selection = st.sidebar.radio("Select a function", ["Write a Blog Post", "Write a Poem", "Write a Short Story"])
 
-#     topic = st.text_input("Enter a topic")
-#     if st.button("Generate"):
-#         if selection == "Write a Blog Post":
-#             result = write_post(topic)
-#         elif selection == "Write a Poem":
-#             result = write_poem(topic)
-#         else:
-#             result = write_story(topic)
-#         st.success(result)
-
-# if __name__ == '__main__':
-#     main()
 def main():
     st.sidebar.image("logo.jpg", width= 300)
     st.sidebar.title("What do you want to generate")

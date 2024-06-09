@@ -4,8 +4,8 @@
 # In[41]:
 
 
-from ctypes import alignment
-from tkinter import CENTER
+# from ctypes import alignment
+# from tkinter import CENTER
 import cohere
 co = cohere.Client('vWFpPgxRhWo41o9QhjNiE7VWc3dvulGZwJhawHYk') # This is your trial API key
 

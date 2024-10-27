@@ -1,7 +1,7 @@
 # BlogGPT
 It is a repository for a Virtual Hackathon conducted by a amazing organization LabLab.ai
 
-[Docs](https://github.com/Vashistha-1802/BlogGPT#-documentation)
+[Docs](#-documentation)
 ## Quick Install Requirements
 
 `pip install cohere`
